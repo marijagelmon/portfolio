@@ -1,0 +1,115 @@
+:root {
+    --primary-color: #ECECEC;
+    --overlay-color: #5444F2;
+    --menu-speed: 0.2s;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins Black', sans-serif;
+    line-height: 1.4;
+    background-color: #EDEDED;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 3rem;
+    position: relative;
+  }
+  
+  .showcase { 
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  
+  
+
+  
+  
+  .showcase h1 {
+    font-size: 100px;
+
+    
+    line-height: 100px;
+  
+    
+  }
+
+  .showcase h2{
+    font-size: 45px;
+    color: #8E8E8E;
+    margin-bottom: 2%;
+    font-family: 'Poppins ExtraLight';
+   
+    
+  }
+  
+  .showcase p {
+    font-size: 27px;
+    color: white;
+    font-family: 'Raleway Light';
+    line-height: 1.3rem;
+    margin-top: 5%;
+    line-height: 31px;
+  }
+  
+  
+
+  video{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+  z-index: -1;}
+
+.links{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  
+}
+
+    .work{
+      font-family: "Raleway light";
+      color: #1B1B1C;
+      text-decoration: none;
+      font-size: 30px;
+      margin-left: 75vh;
+      
+      
+    
+    }
+    
+    .connect{
+      font-family: "Raleway light";
+      color: #1B1B1C;
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 75vh;
+       }
+
+       .firstline {
+         position: fixed;
+         margin-left: 95%;
+       }
+
+       .secondline{
+         position: fixed;
+         margin-right: 95%;
+       }
