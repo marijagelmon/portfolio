@@ -34,7 +34,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
   }
   
@@ -54,7 +54,7 @@
 
   .showcase h2{
     font-size: 45px;
-    color: #8E8E8E;
+    color: white;
     margin-bottom: 2%;
     font-family: 'Poppins ExtraLight';
    
@@ -63,7 +63,7 @@
   
   .showcase p {
     font-size: 27px;
-    color: white;
+    color: #8E8E8E;
     font-family: 'Raleway Light';
     line-height: 1.3rem;
     margin-top: 5%;
@@ -82,6 +82,7 @@
   position: fixed;
   display: flex;
   align-items: center;
+  
   
 }
 
@@ -104,7 +105,7 @@
       margin-right: 75vh;
        }
 
-       .firstline {
+       /* .firstline {
          position: fixed;
          margin-left: 95%;
        }
@@ -112,4 +113,4 @@
        .secondline{
          position: fixed;
          margin-right: 95%;
-       }
+       } */
